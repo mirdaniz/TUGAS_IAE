@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Spotify Explorer</h1>
+    <p>Cari lagu, album, atau artis favoritmu!</p>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Masukkan kata kunci...">
+        <select id="searchType">
+            <option value="track">Lagu</option>
+            <option value="artist">Artis</option>
+            <option value="album">Album</option>
+        </select>
+        <button id="searchButton">Cari</button>
+    </div>
+
+    <div id="message"></div>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
