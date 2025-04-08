@@ -1,0 +1,59 @@
+.card {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card-title {
+    color: #007bff;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-style: italic;
+  }
+  
+  .card .btn {
+    width: 48%;
+  }
+  
+  .book-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+.custom-btn-tambah {
+    background-color: #151e48;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s ease;
+  }
+  .custom-btn-tambah:hover {
+    background-color: #0080ff2b;
+  }
+  
+  .custom-btn-edit {
+    background-color: #0aedf579; 
+    color: white;
+    border: none;
+    margin-right: 5px;
+  }
+  .custom-btn-edit:hover {
+    background-color: #2e86c1;
+  }
+  
+  .custom-btn-hapus {
+    background-color: #0d2e4b; 
+    color: white;
+    border: none;
+  }
+  .custom-btn-hapus:hover {
+    background-color: #1d1645;
+  }
+  
